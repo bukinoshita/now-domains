@@ -31,7 +31,7 @@ $ now-domains --help
 
 ## Motivation
 
-`now domains buy <domain>` from `now` already checks if the domain is available or not and also asks if you want to buy the domains or not.
+`now domains buy <domain>` from `now` already checks if the domain is available or not and also asks if you want to buy the domains or not. This module removes the ability to buy a domain, so you don't accidentally buy a domain. The purpose of this module is just to check the price and availability of a domain.
 
 
 ## Demo
