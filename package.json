@@ -1,0 +1,41 @@
+{
+  "name": "now-domains",
+  "version": "0.0.0",
+  "description": "Check now domains availability and pricing",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/now-domains.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo --quiet"
+  },
+  "bin": {
+    "now-domains": "index.js"
+  },
+  "keywords": [
+    "now",
+    "domain",
+    "domains",
+    "check",
+    "zeit",
+    "world"
+  ],
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "log-symbols": "^2.1.0",
+    "meow": "^3.7.0",
+    "now-domains-price": "^0.0.1",
+    "now-domains-status": "^0.0.1",
+    "ora": "^1.3.0",
+    "shout-error": "^0.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.6.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": [
+      "prettier"
+    ]
+  }
+}
