@@ -30,8 +30,8 @@
     "shout-error": "^0.0.2"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^2.6.0",
-    "xo": "^0.18.2"
+    "eslint-config-prettier": "2.6.0",
+    "xo": "0.18.2"
   },
   "xo": {
     "extends": [
