@@ -35,7 +35,7 @@ const cli = meow(
 
 const main = () => {
   const domain = cli.input[0]
-  const price = cli.flags.price
+  const { price } = cli.flags
 
   if (!domain) {
     shoutError('Domain name is required.')
