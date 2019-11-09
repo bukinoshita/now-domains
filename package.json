@@ -21,7 +21,7 @@
     "world"
   ],
   "dependencies": {
-    "chalk": "^2.1.0",
+    "chalk": "^3.0.0",
     "log-symbols": "^3.0.0",
     "meow": "^5.0.0",
     "now-domains-price": "^0.0.1",
